@@ -1,0 +1,37 @@
+/* Write your CSS code here. */
+.mainbg {
+  background-color: blanchedalmond;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ratingcontainer {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
+.imagescontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.h1 {
+  font-size: 20px;
+  color: black;
+}
+.p {
+  color: grey;
+  font-size: 10px;
+}
+.image {
+  height: 50px;
+  width: 50px;
+}
